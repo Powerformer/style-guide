@@ -28,7 +28,7 @@
             return y;
         }
     }
-        ```
+    ```
     
   - [1.2](code-style-limit-row) 每行代码不超过`119`个字符.
 
