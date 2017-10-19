@@ -1,6 +1,6 @@
 # Powerformer JavaScript Style Guide() {
 
-*A mostly reasonable approach to JavaScript*
+*A mostly reasonable approach to Coding*
 
 ## 目录
 
