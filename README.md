@@ -13,11 +13,11 @@
     ```javascript
     // bad
     function heros() {
-        if (x) {
+      if (x) {
         return x;
-        } else {
+      } else {
         return y;
-        }
+      }
     }
 
     // good
