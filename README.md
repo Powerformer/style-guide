@@ -4,11 +4,11 @@
 
 ## Table of Contents
 
-    1. [代码风格](#code-style)
+  1. [代码风格](#code-style)
 
 ## 代码风格
 
-    - [1.1](code-style-indent) 语句块内每行代码缩进`4`个空格.
+  - [1.1](code-style-indent) 语句块内每行代码缩进`4`个空格.
 
         ```javascript
         // bad
@@ -30,7 +30,7 @@
         }
         ```
     
-    - [1.2](code-style-limit-row) 每行代码不超过`119`个字符.
+  - [1.2](code-style-limit-row) 每行代码不超过`119`个字符.
 
         ```javascript
         // bad
