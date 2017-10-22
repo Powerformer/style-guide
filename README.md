@@ -4,4 +4,4 @@
 
 ## 目录
 
-  1. [JavaScript](https://github.com/Powerformer/powerformer-style-guide/blob/master/javascript-style-guide.md)
+  1. [JavaScript](https://github.com/Powerformer/style-guide/blob/master/javascript/javascript.md)
