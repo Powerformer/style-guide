@@ -393,7 +393,7 @@
       moduleA,
       moduleB,
     }
-    import myModule from './myModule;
+    import myModule from './myModule';
     ```
 
   - [8.5](#module-function) 如果默认输出的是函数，那么函数名首字母需要小写。
