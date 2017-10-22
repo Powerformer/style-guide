@@ -382,6 +382,56 @@
     }
     ```
 
+  - [8.4](#module-default) 不要在模块中使用通配符，如果要输出多个模块，使用 `export default`
+
+    ```javascript
+    // bad
+    import * as myModule from './myModule;
+
+    // good
+    export default {
+      moduleA,
+      moduleB,
+    }
+    import myModule from './myModule;
+    ```
+
+  - [8.5](#module-function) 如果默认输出的是函数，那么函数名首字母需要小写。
+  
+    ```javascript
+    // bad
+    function MyFunc () {
+      ...
+    }
+
+    export default MyFunc;
+
+    // good
+    function myFunc () {
+      ...
+    }
+
+    export default myFunc;
+    ```
+
+  - [8.6](#module-class) 如果默认输出的是对象，那么对象名首字母要大写。
+
+    ```javascript
+    // bad 
+    const myObj = {
+      ...
+    };
+
+    export default myObj;
+
+    // good
+    const MyObj = {
+      ...
+    };
+    
+    export default MyObj;
+    ```
+
 **[⬆ back to top](#table-of-contents)**
 
 };
