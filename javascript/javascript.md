@@ -386,7 +386,7 @@
 
     ```javascript
     // bad
-    import * as myModule from './myModule;
+    import * as myModule from './myModule';
 
     // good
     export default {
