@@ -14,7 +14,7 @@
 (blank_line)
 (another_blank_line)
 def top_level_function():
-	pass
+    pass
 (blank_line)
 (another_blank_line)
 ```
@@ -25,7 +25,7 @@ def top_level_function():
 (blank_line)
 (another_blank_line)
 class SomeClass(object):
-	pass
+    pass
 (blank_line)
 (another_blank_line)
 ```
@@ -35,8 +35,8 @@ class SomeClass(object):
 ```python
 class SomeClass(object):
 
-	def method_one():
-      	pass
+    def method_one():
+        pass
     
     def method_two():
       	pass
