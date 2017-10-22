@@ -4,7 +4,7 @@
 
 > **注意**: 一般的变量命名会以涵盖标题为主，涉及四个值得变量命名会使用`top, right, bottom, left`, 涉及少于四个或者大于四个的变量命名会使用`first, second ...`。
 
-## 目录
+## 目录 <a id="table-of-contents"></a>
 
   1. [代码风格](#code-style)
   2. [字符串](#Strings)
@@ -15,7 +15,7 @@
   7. [类](#Classes)
   8. [模块](#Modules)
 
-## 代码风格
+## 代码风格 <a id="code-style"></a>
 
   - [1.1](#code-style-indent) 语句块内每行代码缩进`2`个空格。
 
@@ -51,8 +51,10 @@
                 deleniti quia quidem atque quo tempore error a nihil impedit      \
                 excepturi aliquid nemo?";
     ```
+
+**[⬆ back to top](#table-of-contents)**
   
-## 字符串
+## 字符串 <a id="Strings"></a>
 
   - [2.1](#string-quote-style) 静态字符串一律使用单引号，不使用双引号。动态字符串使用反引号。
 
@@ -65,7 +67,9 @@
     const dynamicString = `foo${staticString}bar`;
     ```
 
-## 解构赋值
+**[⬆ back to top](#table-of-contents)**
+
+## 解构赋值 <a id="Destructuring"></a>
 
   - [3.1](#destructuring-array) 使用数组成员对变量赋值时，优先使用解构赋值。
 
@@ -116,7 +120,9 @@
     const { left, right } = processInput(input);
     ```
 
-## 对象
+**[⬆ back to top](#table-of-contents)**
+
+## 对象 <a id="Objects"></a>
 
   - [4.1](#object-define-comma) 单行定义的对象，最后一个成员不以逗号结尾。多行定义的对象，最后一个成员以逗号结尾。
 
@@ -200,7 +206,9 @@
     };
     ```
 
-## 数组
+**[⬆ back to top](#table-of-contents)**
+
+## 数组 <a id="Arrays"></a>
 
   - [5.1](#array-copy) 拷贝数组使用 `Spread Syntax '...'` 。
 
@@ -225,7 +233,9 @@
     const arr = Array.from(analogyArrObj)
     ```
 
-## 函数
+**[⬆ back to top](#table-of-contents)**
+
+## 函数 <a id="Functions"></a>
 
   - [6.1](#function-arrow) 能使用箭头函数尽量使用箭头函数。简洁而且可以绑定`this` 。
 
@@ -278,7 +288,9 @@
     }
     ```
 
-## 类
+**[⬆ back to top](#table-of-contents)**
+
+## 类 <a id="Classes"></a>
 
   - [7.1](#class-prototype) 在需要使用  `Prototype` 的操作时，都用 `Class` 来取代。
 
@@ -306,7 +318,9 @@
     }
     ```
 
-## 模块
+**[⬆ back to top](#table-of-contents)**
+
+## 模块 <a id="Modules"></a>
 
   - [8.1](#module-import) 使用 `import` 代替 `require` 。
   
@@ -367,4 +381,7 @@
       myFunc2,
     }
     ```
+
+**[⬆ back to top](#table-of-contents)**
+
 };
