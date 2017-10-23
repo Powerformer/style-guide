@@ -6,6 +6,51 @@
 
 使用 4 格缩进，只能使用空格，不能用 Tab。
 
+## 命名规范
+
+1.  任何命名都应当能清晰地描述其功能：
+
+```python
+# bad
+s = 50
+
+# good
+student_num = 50
+```
+
+2.  变量、函数（方法）、模块和包的命名都应使用 `snake_case` 。
+
+```python
+# bad
+someValue = 100
+
+# good
+some_value = 100
+```
+
+3.  类名应当使用 `PascalCase` 。
+
+```python
+# bad
+class Some_Class(object):
+    pass
+
+# good
+class SomeClass(object):
+    pass
+```
+
+4.  （全局）常量应当全部大写，并且用下划线相连。
+
+```python
+# bad
+globalConstant = 0.75
+
+# good
+GLOBAL_CONSTANT = 0.75
+```
+
+
 ## 空行的使用
 
 1.  最外层函数定义前后需要加两个空格。
@@ -37,7 +82,7 @@ class SomeClass(object):
 
     def method_one():
         pass
-    
+
     def method_two():
       	pass
 
@@ -70,7 +115,7 @@ from subprocess import Popen, PIPE
 import uuid
 from os.path import abspath
 
-from django.db import models 
+from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
 from django_extensions.db.models import TimeStampedModel
