@@ -7,3 +7,5 @@ A curated collection of coding style guides.
 1. [JavaScript](https://github.com/Powerformer/style-guide/blob/master/javascript/javascript.md)
 
 2. [Python](https://github.com/Powerformer/style-guide/blob/master/python/python.md)
+
+3. [Git](https://github.com/Powerformer/style-guide/blob/master/tools/git.md)
