@@ -11,29 +11,29 @@
 ## 代码风格 <a id="code-style"></a>
 
   - [1.1](#code-style-location) 组件中，所有的变量或方法必须得在某一处一致引用,在结尾一致导出。
-  
+
     ```javascript
     // bad
-    
+
     render () {
-        return (
-            <div>
-                <p>{this.props.content}</p>
-                <button onClick={this.props.handleClick}>first</button>
-            </div>
-        )
+      return (
+        <div>
+          <p>{this.props.content}</p>
+          <button onClick={this.props.handleClick}>first</button>
+        </div>
+      )
     }
 
     // good
     render () {
-        const { content, handleClick } = this.props;
+      const { content, handleClick } = this.props;
 
-        return (
-            <div>
-                <p>{content}</p>
-                <button onClick={handleClick}>first</button>
-            </div>
-        )
+      return (
+        <div>
+          <p>{content}</p>
+          <button onClick={handleClick}>first</button>
+        </div>
+      )
     }
     ```
 
