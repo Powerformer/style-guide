@@ -37,4 +37,47 @@
     }
     ```
 
+  - [1.2](#dirName) 文件 / 文件夹名一律首字母大写，驼峰式命名。
+
+    ```markdown
+    // bad
+    Components
+      - courseOutline
+       - App.js
+      
+    // also bad
+    Components
+      - Course
+        - courseOutline.js
+
+    // good
+    Components
+      - CourseOutline
+       - App.js
+    
+    // also good
+    Components
+      - Course
+        - CourseOutline.js
+    ```
+
+  - [1.3](#static-name) 项目中，静态资源 / 测试 文件夹名使用小写字母。
+
+    ```javascript
+    // image
+    - images
+      - MyPicture.png
+
+    // css
+    - css
+      - MyStyle.css
+
+    // test
+    - tests
+      - MyTest.test.js
+
+    - __tests__
+      - MyTest.js
+    ```
+
 }
