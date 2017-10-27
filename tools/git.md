@@ -1,6 +1,6 @@
 # Git Style Guide
 
-## 五类 `commit message`
+## 如何写 `commit message`
 
 ### 功能实现
 
@@ -8,6 +8,14 @@
 
 ```
 [ADD] The function you have just implemented
+```
+
+### 功能删除
+
+后面跟你所删除的功能或内容。
+
+```
+[RM] The function you have removed
 ```
 
 ### 错误修复
